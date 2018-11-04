@@ -133,8 +133,8 @@ class AssociationRule:
         rhs = self.lhs
 
         # support of rule: -r ==> e
-        lhs_win_support += self.get_win_support(df_match, radiant=lhs, dire=rhs, winner=1)
-        lhs_win_support += self.get_win_support(df_match, radiant=rhs, dire=lhs, winner=-1)
+        lhs_win_support += self.get_win_support(df_match, radiant=lhs, dire=rhs, winner=-1)
+        lhs_win_support += self.get_win_support(df_match, radiant=rhs, dire=lhs, winner=1)
 
         return rhs_win_support * 1.0 / (rhs_win_support + lhs_win_support)
 
@@ -143,7 +143,7 @@ if __name__ == "__main__":
     df_radiant_win_radiant_heros = pd.read_csv('radiant_win_radiant_heros.csv')
     df_dire_win_radient_heros = pd.read_csv('dire_win_radiant_heros.csv')
     df_radiant_win_match = pd.read_csv('radiant_win_match.csv')
-    lhs = ['bloodseeker']
+    lhs = ['sven']
     rhs = ['pudge']
 
     rule = AssociationRule(lhs, rhs, "allies")
