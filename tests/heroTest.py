@@ -5,8 +5,8 @@ from src.hero import Hero
 class HeroTestCase(unittest.TestCase):
 
     def setUp(self):
-        self._heroes_json_file_path = '../data/heroes.json'
-        self.heroes = Hero.load_heroes_data(self._heroes_json_file_path)
+        self.heroes_json_file_path = '../data/heroes.json'
+        self.heroes = Hero.load_heroes_data(self.heroes_json_file_path)
 
     def test_load_heroes_data(self):
         self.assertEqual(len(self.heroes), self.heroes['zuus'].id - 1)  # id '24' is missing
