@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="558dd9c4-2b60-4d32-bc17-7339a0fc1e32" name="Default Changelist" comment="1106 commit&#10;Add 3 required data files">
-      <change beforePath="$PROJECT_DIR$/.idea/dota2-analysis.iml" afterPath="$PROJECT_DIR$/.idea/dota2-analysis.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -204,6 +202,14 @@
       <option name="presentableId" value="Default" />
       <updated>1541248997615</updated>
     </task>
+    <task id="LOCAL-00001" summary="1106 commit&#10;Add 3 required data files">
+      <created>1541474723478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541474723478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -234,6 +240,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1106 commit&#10;Add 3 required data files" />
+    <option name="LAST_COMMIT_MESSAGE" value="1106 commit&#10;Add 3 required data files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
